@@ -16,7 +16,7 @@ void IntToChar() {
 	unsigned short int n = 0x1234;
 	unsigned char p = (unsigned char)n;
 
-	printf("Int = %u, Char = %d", n, p);
+	printf("Int = %u, Char = %u", n, p);
 }
 
 int main() {
